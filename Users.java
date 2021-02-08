@@ -6,18 +6,9 @@ public class Users {
 	private String name;
 	private String emailId;
 	public Users(Integer userId, String name, String emailId) {
-		super();
 		this.userId = userId;
 		this.name = name;
 		this.emailId = emailId;
-	}
-	public Users() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
-	@Override
-	public String toString() {
-		return "Users [userId=" + userId + ", "+ "name=" + name + ", "+ "emailId=" + emailId + "]";
 	}
 	public Integer getUserId() {
 		return userId;
